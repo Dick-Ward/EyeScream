@@ -1,0 +1,7 @@
+<h1> HOLY MOLEY A LIST OF TRUCKS! </h1>
+
+<% @trucks.each do |truck| %>
+<h3><%= link_to truck.name, truck %></h3>
+Wheels: <%= truck.wheels %><br>
+Yo is this a drug front or what? <%= truck.front %><br><br>
+<% end %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  wheels: 1
+  front: false
+
+two:
+  name: MyString
+  wheels: 1
+  front: false

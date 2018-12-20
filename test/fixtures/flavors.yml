@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  gumballs: false
+  color: MyString
+  organic: false
+  poison: false
+  truck: one
+
+two:
+  name: MyString
+  gumballs: false
+  color: MyString
+  organic: false
+  poison: false
+  truck: two
