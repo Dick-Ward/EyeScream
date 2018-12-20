@@ -10,11 +10,13 @@ class FlavorsController < ApplicationController
   end
 
   def create
-    @trucks = Truck.all
     @flavor = Flavor.create(flava_params)
     if @flavor.valid?
       redirect_to @flavor
     else
+      # we get all trucks here because the new page requires it.
+      @trucks = Truck.all
+      # We could use flash here if we wanted as well
       @errors = @flavor.errors.full_messages
       render :new
     end

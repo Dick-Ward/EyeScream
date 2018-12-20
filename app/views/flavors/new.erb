@@ -23,6 +23,7 @@
   <%= f.check_box :poison %><br>
 
   <%= f.label :truck_id %>
+  # [the_thing_we_want_to_add_to], [the_thing_we're_getting_info_from], [the_thing_we're_getting], [the_thing_we_are_displaying]
   <%= f.collection_select :truck_id, @trucks, :id, :name %><br>
   <%= f.submit %>
 <% end %>
